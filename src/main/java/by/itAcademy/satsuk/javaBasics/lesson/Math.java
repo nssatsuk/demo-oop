@@ -5,20 +5,12 @@ public class Math {
         return (number % 2 == 0) ? true : false;
     }
 
-    public static boolean isPositive(int number){
-        boolean isPositive = false;
-        if(number > 0){
-            isPositive = true;
-        }
-        return isPositive;
+    public static boolean isPositive(int number) {
+        return (number > 0) ? true : false;
     }
 
-    public static boolean isPositive(double number){
-        boolean isPositive = false;
-        if(number > 0){
-            isPositive = true;
-        }
-        return isPositive;
+    public static boolean isPositive(double number) {
+        return (number > 0) ? true : false;
     }
 
     public static int findMax(int[] numbers){
