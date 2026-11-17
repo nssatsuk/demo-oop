@@ -8,4 +8,20 @@ public class Math {
         }
         return isOdd;
     }
+
+    public static boolean isPositive(int number){
+        boolean isPositive = false;
+        if(number > 0){
+            isPositive = true;
+        }
+        return isPositive;
+    }
+
+    public static boolean isPositive(double number){
+        boolean isPositive = false;
+        if(number > 0){
+            isPositive = true;
+        }
+        return isPositive;
+    }
 }
