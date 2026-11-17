@@ -1,12 +1,8 @@
 package by.itAcademy.satsuk.javaBasics.lesson;
 
 public class Math {
-    public static boolean isOdd(int number){
-        boolean isOdd = false;
-        if(number % 2 == 0) {
-            isOdd = true;
-        }
-        return isOdd;
+    public static boolean isOdd(int number) {
+        return (number % 2 == 0) ? true : false;
     }
 
     public static boolean isPositive(int number){
